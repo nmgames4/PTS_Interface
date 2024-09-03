@@ -1,4 +1,6 @@
-package utility;
+package usdf;
+
+import usdf.training.Feats;
 
 public class Member {
     public String name;
@@ -10,7 +12,7 @@ public class Member {
     public boolean selectee;
     public String motto;
     public String position;
-    public String featStack;
+    public Feats featStack;
 
     // Constructor
     public Member(
@@ -33,7 +35,7 @@ public class Member {
         this.selectee = selectee;
         this.motto = motto;
         this.position = position;
-        this.featStack = featStack;
+        this.featStack = new Feats(featStack);
     }
 
     public String getDefaultAddress() {

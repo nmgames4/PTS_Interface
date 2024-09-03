@@ -1,4 +1,4 @@
-package utility;
+package usdf;
 
 public enum Branch {
     NAVY("Navy", "USN"),

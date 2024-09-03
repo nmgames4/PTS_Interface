@@ -1,7 +1,7 @@
 package modules;
 
 import general.ReadInput;
-import utility.Member;
+import usdf.Member;
 
 import java.util.List;
 

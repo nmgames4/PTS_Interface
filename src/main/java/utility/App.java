@@ -3,6 +3,8 @@ package utility;
 import general.ReadInput;
 import modules.PrintPts;
 import org.jsoup.Jsoup;
+import usdf.Member;
+import usdf.MemberFactory;
 
 import java.util.ArrayList;
 import java.util.List;
