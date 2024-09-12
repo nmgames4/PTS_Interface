@@ -101,20 +101,6 @@ public class MemberFactory {
         // CLEANUP FOR CIVIL SERVICE
         if (branch == Branch.CIVILIAN) rank = position;
 
-//        assert branch != null; // Program should throw a fatal exception if this errors.
-//        System.out.printf(
-//                "%-5s | %-4s | %-20s | %-45s | %-4s | %-15s | %-15s | %-12s | Debug = %s %n",
-//                serviceId,
-//                payGrade,
-//                name,
-//                mottoUnmodified,
-//                branch.getAbbreviation(),
-//                rank,
-//                (position.equals("None")) ? "" : position,
-//                featStack,
-//                motto
-//        );
-
         return new Member(
                 name,
                 serviceId,
